@@ -400,10 +400,10 @@ span#select2--container {
   padding: 50px 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .terms {
-  width: 50%;
-  margin-left: 239px;
+  width: 740px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -413,7 +413,7 @@ span#select2--container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 221px;
+  /* margin-left: 221px; */
 }
 
 /* ********************************************************************RESPONSIVE */
@@ -464,7 +464,7 @@ span#select2--container {
 }
 /* ************************************************************************************ */
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 1241px) {
   .a-header {
     display: none;
   }
